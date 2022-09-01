@@ -1,7 +1,7 @@
 #!/bin/bash -e
-esp_path="/efi/BOOT/Arch"
-current_img="${esp_path}/linux-signed.efi"
-backup_img="${esp_path}/linux-signed-bkp.efi"
+esp_path="/efi/EFI/arch"
+current_img="${esp_path}/archlinux-dracut.efi"
+backup_img="${esp_path}/archlinux-dracut-bkp.efi"
 #always force directory creation
 mkdir -p $esp_path
 
