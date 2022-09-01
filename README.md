@@ -7,8 +7,8 @@
 
 What this hook does:
 
-- backs up `/efi/BOOT/Arch/linux-signed.efi` (if it exists) to `/efi/BOOT/Arch/linux-signed-bkp.efi`.
-- generates a new image on  `/efi/BOOT/Arch/linux-signed.efi` .
+- backs up `/efi/EFI/arch/archlinux-dracut.efi` (if it exists) to `/efi/BOOT/arch/archlinux-dracut-bkp.efi`.
+- generates a new image on  `/efi/EFI/arch/archlinux-dracut.efi` .
 - prints the current EFI bootlist.
 - triggers image creation if any kernel/microcode/systemd related packages/paths are updated.
 
